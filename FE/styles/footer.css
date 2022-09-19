@@ -1,0 +1,40 @@
+.footerContainer {
+  width: 100%;
+  display: flex;
+  background: #eeeef0;
+  height: 200px;
+  justify-content: center;
+}
+.footerInside {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLeftSide img {
+  width: 250px;
+  margin-top: 10px;
+}
+.footerLeftSide {
+  width: 250px;
+  height: 200px;
+}
+.footerRightSideTop svg {
+  width: 25px;
+  height: 25px;
+}
+.footerRightSideTop {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerRightSide {
+  margin-top: 10px;
+}
+
+.footerCenter p:nth-child(1) {
+  color: grey;
+}
+.footerCenter p {
+  font-size: 18px;
+}

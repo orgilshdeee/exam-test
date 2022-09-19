@@ -1,0 +1,104 @@
+.cards img {
+  width: 650px;
+  height: 500px;
+}
+.cards {
+  display: flex;
+}
+.carcard {
+  display: flex;
+  flex-direction: column;
+}
+.bid {
+  width: 600px;
+  background: black;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 5px 5px 5px 5px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.bid svg {
+  color: rgb(170, 165, 165);
+  width: 25px;
+  height: 25px;
+}
+.timeLeft p {
+  color: rgb(170, 165, 165);
+}
+.timeLeft {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  justify-content: space-around;
+}
+.carContainer {
+  margin-top: 35px;
+  display: flex;
+  width: 1300px;
+}
+.carInformation {
+  display: flex;
+  flex-direction: row;
+}
+.types p {
+  border: 1px solid rgb(164, 146, 146);
+  background: rgb(208, 195, 195);
+  width: 150px;
+  height: 35px;
+  text-align: start;
+  margin-left: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+.types p:nth-child(1) {
+  border-radius: 5px 0px 0px 0px;
+}
+.types p:nth-child(5) {
+  border-radius: 0px 0px 0px 5px;
+}
+.informations p {
+  border: 1px solid rgb(164, 146, 146);
+  width: 150px;
+  height: 35px;
+  text-align: start;
+  margin-left: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.types1 p {
+  border: 1px solid rgb(164, 146, 146);
+  background: rgb(208, 195, 195);
+  width: 150px;
+  height: 35px;
+  text-align: start;
+  margin-left: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.informations1 p {
+  border: 1px solid rgb(164, 146, 146);
+  width: 150px;
+  height: 35px;
+  text-align: start;
+  margin-left: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.informations1 p:nth-child(1) {
+  border-radius: 0 5px 0px 0;
+}
+.informations1 p:nth-child(5) {
+  border-radius: 0 0px 5px 0;
+}

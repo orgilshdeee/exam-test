@@ -1,0 +1,88 @@
+.profile {
+  width: 1300px;
+  display: flex;
+  margin-top: 25px;
+}
+.profileContainer {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.profileLeft {
+  display: flex;
+  flex-direction: column;
+}
+.profileLeft p:hover {
+  color: grey;
+  cursor: pointer;
+}
+.userEdit {
+  display: flex;
+}
+.userEdit img {
+  width: 150px;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+.user p {
+  margin-left: 15px;
+  font-size: 25px;
+}
+.user button {
+  width: 150px;
+  height: 35px;
+  background: none;
+  border: 1px solid rgb(235, 194, 194);
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  color: black;
+}
+.updateForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.updateForm p {
+  text-align: center;
+  color: #8c55aa;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.updateForm form input {
+  border-radius: 20px;
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+.updateForm form button {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #ec6f66, #f3a183);
+  border: 0;
+  width: 150px;
+  height: 35px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  align-items: center;
+  margin-left: 100px;
+}

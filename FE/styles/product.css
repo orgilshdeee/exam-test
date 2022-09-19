@@ -1,0 +1,26 @@
+.productAddForm {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  /* max-width: 60vw; */
+  /* justify-items: center; */
+  margin-inline: 25%;
+  align-items: center;
+}
+.productAddForm input {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  /* margin-top: 3%; */
+  margin-inline: 35%;
+  /* margin-left: 25%; */
+  max-width: 550px;
+}
+.productAddForm button {
+  width: 35%;
+  margin-top: 5%;
+}
+.productAddForm h5 {
+  font-size: 25px;
+  margin-bottom: 0%;
+}

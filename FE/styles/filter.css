@@ -1,0 +1,84 @@
+.filterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.filter {
+  width: 1300px;
+  height: 100%;
+  /* background: grey; */
+  display: flex;
+}
+.filterLeftSide {
+  display: flex;
+  width: 500px;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+}
+.filterLeftSide p {
+  font-size: 25px;
+  font-weight: 700;
+}
+.filterLeftSide button:nth-child(2) {
+  width: 70px;
+  height: 35px;
+  background: none;
+  border: 1px solid rgb(235, 194, 194);
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterLeftSide button svg {
+  margin-left: 5px;
+}
+.filterLeftSide button:nth-child(3) {
+  width: 120px;
+  height: 35px;
+  background: none;
+  border: 1px solid rgb(235, 194, 194);
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterLeftSide button:nth-child(4) {
+  width: 100px;
+  height: 35px;
+  background: none;
+  border: 1px solid rgb(235, 194, 194);
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterLeftSide button:nth-child(5) {
+  width: 100px;
+  height: 35px;
+  background: none;
+  border: 1px solid rgb(235, 194, 194);
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterRightSide button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.filterRightSide {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+}
+.filterButtonClick {
+  border-bottom: 1px solid black;
+}
